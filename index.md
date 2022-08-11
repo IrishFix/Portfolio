@@ -1,6 +1,4 @@
-# Portfolio
-## (Made by/about Ben Knight)
-### This Portfolio contains any and all relevant projects and otherwise showing my experience in programming over the years I have hobbied and careered in it!
+# This Portfolio contains any and all relevant projects and otherwise showing my experience in programming over the years I have hobbied and careered in it!
 
 ## The programming languages i know
 #### A list of all of the programming languages I know and understand; I understand some more than others however I have worked with all of them within the last year.
