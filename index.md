@@ -43,5 +43,28 @@
 28 |                    print("Could not move folder located at ["+To_Sort+"/"+Path+"] to Loose Folders")
 ```
 
-#### You may notice
+#### You may notice on line 4 of the above code, that it uses a file referenced as ``Sort_Link.txt``; this is where the customisability comes in.
+
+#### ``Sort_Link.txt`` is a txt file that stores a Python table and python variable set as plain text, allowing you to give it the extensions and locations without opening the code! Example of ``Sort_Link.txt`` below:
+
+``Sort_Link.txt``
+```
+  1 | Sort_Files = {
+  2 |            ".png":'D:/MAIN/PNG, JPG',
+  3 |            ".obj":'D:/MAIN/OBJ, MTL, TEX, BLENDER',
+  4 |            ".mtl":'D:/MAIN/OBJ, MTL, TEX, BLENDER',
+  5 |            ".mp3":'D:/MAIN/MP3, MP4',
+  6 |            ".mp4":'D:/MAIN/MP3, MP4',
+  7 |            ".rbxm":'D:/MAIN/RBXM',
+  8 |            ".rbxl":'D:/MAIN/STUDIO FILES',
+  9 |            ".txt":'D:/MAIN/Text',
+ 10 |            ".jpg":'D:/MAIN/PNG, JPG',
+ 11 |            ".py":'D:/MAIN/Loose Coding Projects',
+ 12 |            ".lnk":'D:/MAIN/Shortcuts',
+ 13 |            ".pdn":'D:/MAIN/P.net IMAGES',
+ 14 |            ".exe":'D:/MAIN/Exe'
+ 15 |            }
+ 16 |
+ 17 | To_Sort = 'C:/Users/benkn/Desktop'
+```
 
