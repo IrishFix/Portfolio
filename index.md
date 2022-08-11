@@ -1,4 +1,6 @@
-# This Portfolio contains any and all relevant projects and otherwise showing my experience in programming over the years I have hobbied and careered in it!
+# My Programming Portfolio
+
+## This Portfolio contains any and all relevant projects and otherwise showing my experience in programming over the years I have hobbied and careered in it!
 
 ## • The programming languages I know
 #### Following, is a list of all of the programming languages I know and understand; my understanding of some is higher than of some others however I have worked with all of them within the last year.
