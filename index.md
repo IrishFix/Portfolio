@@ -13,33 +13,35 @@
 #### It worked very well and was reasonably customisable, however, not that complex. Code shown below!
 ``DirectorySorter.py``
 ```lua
-import os
-import shutil
-
-Sort_Link = open('Sort_Link.txt')
-Read_Link = Sort_Link.read()
-
-exec(Read_Link)
-
-for Path in os.listdir(To_Sort):
-    for Ext, Sort in Sort_Files.items():
-        if Ext in Path.lower():
-            try:
-                shutil.move(To_Sort+"/"+Path, Sort)
-                print("File that was located at ["+To_Sort+"/"+Path+"] is now located at ["+Sort+"] because it had '"+Ext+"' in it")
-            except:
-                print("File that was located at ["+To_Sort+"/"+Path+"] could not be relocated to ["+Sort+"] because it errored")
-                Delete_File = input("Would you like to delete the file located at ["+Path+"] ?: ")
-                if Delete_File.lower() == "y" or Delete_File.lower() == "yes":
-                    print("Deleting the file located at ["+To_Sort+"/"+Path+"]")
-                    os.remove(To_Sort+"/"+Path)
-                else:
-                    print("Skipping the file located at ["+To_Sort+"/"+Path+"]")
-        else:
-            if os.path.isdir(To_Sort+"/"+Path):
-                try:
-                    shutil.move(To_Sort+"/"+Path, 'C:/Users/benkn/Desktop/MAIN/Loose Folders')
-                except:
-                    print("Could not move folder located at ["+To_Sort+"/"+Path+"] to Loose Folders")
+1 import os
+2 import shutil
+3
+4 Sort_Link = open('Sort_Link.txt')
+5 Read_Link = Sort_Link.read()
+6
+7 exec(Read_Link)
+8
+9 for Path in os.listdir(To_Sort):
+10    for Ext, Sort in Sort_Files.items():
+11        if Ext in Path.lower():
+12            try:
+13                shutil.move(To_Sort+"/"+Path, Sort)
+14                print("File that was located at ["+To_Sort+"/"+Path+"] is now located at ["+Sort+"] because it had '"+Ext+"' in it")
+15            except:
+16                print("File that was located at ["+To_Sort+"/"+Path+"] could not be relocated to ["+Sort+"] because it errored")
+17                Delete_File = input("Would you like to delete the file located at ["+Path+"] ?: ")
+18                if Delete_File.lower() == "y" or Delete_File.lower() == "yes":
+19                    print("Deleting the file located at ["+To_Sort+"/"+Path+"]")
+20                    os.remove(To_Sort+"/"+Path)
+21                else:
+22                    print("Skipping the file located at ["+To_Sort+"/"+Path+"]")
+23        else:
+24            if os.path.isdir(To_Sort+"/"+Path):
+25                try:
+26                    shutil.move(To_Sort+"/"+Path, 'C:/Users/benkn/Desktop/MAIN/Loose Folders')
+27                except:
+28                    print("Could not move folder located at ["+To_Sort+"/"+Path+"] to Loose Folders")
 ```
+
+#### You may notice
 
