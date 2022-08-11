@@ -10,9 +10,9 @@
 #### ``(Will contain relevant snippits of code in some of the languages listed above in order to show functionality to those who understand it!)``
 ### 1) Directory Sorter.
 #### I developed this small Python project as a way to automatically and logically sort and clear my Desktop if it got too cluttered.
-<br>
 #### It worked very well and was reasonably customisable, however, not that complex. Code shown below!
-```
+
+```lua
 import os
 import shutil
 
