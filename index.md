@@ -6,5 +6,5 @@
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lua&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript
 
-## Projects:
-#### (Will contain relevant snippits of code in the languages listed above in order to show functionality to those who understand it!)
+## • Projects
+#### ``(Will contain relevant snippits of code in the languages listed above in order to show functionality to those who understand it!)``
