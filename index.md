@@ -7,4 +7,39 @@
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lua&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TypeScript&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript
 
 ## • Projects
-#### ``(Will contain relevant snippits of code in the languages listed above in order to show functionality to those who understand it!)``
+#### ``(Will contain relevant snippits of code in some of the languages listed above in order to show functionality to those who understand it!)``
+### 1) Directory Sorter.
+#### I developed this small Python project as a way to automatically and logically sort and clear my Desktop if it got too cluttered.
+<br>
+#### It worked very well and was reasonably customisable, however, not that complex. Code shown below!
+```
+import os
+import shutil
+
+Sort_Link = open('Sort_Link.txt')
+Read_Link = Sort_Link.read()
+
+exec(Read_Link)
+
+for Path in os.listdir(To_Sort):
+    for Ext, Sort in Sort_Files.items():
+        if Ext in Path.lower():
+            try:
+                shutil.move(To_Sort+"/"+Path, Sort)
+                print("File that was located at ["+To_Sort+"/"+Path+"] is now located at ["+Sort+"] because it had '"+Ext+"' in it")
+            except:
+                print("File that was located at ["+To_Sort+"/"+Path+"] could not be relocated to ["+Sort+"] because it errored")
+                Delete_File = input("Would you like to delete the file located at ["+Path+"] ?: ")
+                if Delete_File.lower() == "y" or Delete_File.lower() == "yes":
+                    print("Deleting the file located at ["+To_Sort+"/"+Path+"]")
+                    os.remove(To_Sort+"/"+Path)
+                else:
+                    print("Skipping the file located at ["+To_Sort+"/"+Path+"]")
+        else:
+            if os.path.isdir(To_Sort+"/"+Path):
+                try:
+                    shutil.move(To_Sort+"/"+Path, 'C:/Users/benkn/Desktop/MAIN/Loose Folders')
+                except:
+                    print("Could not move folder located at ["+To_Sort+"/"+Path+"] to Loose Folders")
+```
+
