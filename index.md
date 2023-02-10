@@ -14,7 +14,7 @@
 #### I developed this small Python project as a way to automatically and logically sort and clear my Desktop if it got too cluttered.
 #### It worked very well and was reasonably customisable, however, not that complex. Code shown below!
 ``DirectorySorter.py``
-```lua
+```python
  1 | import os
  2 | import shutil
  3 |
@@ -69,4 +69,6 @@
  16 |
  17 | To_Sort = 'C:/Users/benkn/Desktop'
 ```
+
+#### It was designed to take a ``Sort_Link.txt`` file, and use that data to sort the listed ``To_Sort`` directory. It would run through all files, and when it cannot move one to the desired location it will prompt you, asking what to do with it!
 
