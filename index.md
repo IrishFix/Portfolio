@@ -72,3 +72,8 @@
 
 #### It was designed to take a ``Sort_Link.txt`` file, and use that data to sort the listed ``To_Sort`` directory. It would run through all files, and when it cannot move one to the desired location it will prompt you, asking what to do with it!
 
+### 2) TensorMath.NET.
+#### I began developing this C# Unity package, when I began attempting to program a custom Navmesh & Pathfinder solution into a game I was working on.
+#### It is quite far into doing what it was designed to do, and since I thought it could help others, I published it as open source.
+#### It contains C# code for uses like: detecting line/line intersections, creating random points along an axis, creating random points crossing multiple axis, creating Delaunay triangulations of point clouds, calculating the convex hull of point clouds and more uses currently being worked on.
+### Its project and all source code can be found here: https://github.com/IrishFix/TensorMath.NET
